@@ -1,0 +1,33 @@
+// "_" = <space>
+// "\" = <return> or <enter>
+
+Client => Server commands:
+@_<username>                                               - new user
+#
+$_<letter>                                                 - send msg to server
+%_<username>                                               - remove user
+^_<username>                                               - get user address and index
+&
+*
+<
+>
+
+Server => Client commands:
+@_<userip>_<userport>                                      - my address
+#_<users list that separated "_">                          - all users
+$\<all letters that separated "\">                         - send all msgs to clients
+%
+^_<userip>_<userport>_<userindex>                          - get user address and index
+&
+*
+<
+>
+
+letter is:
+<useraddr>|<username>|<userindex>_<useraddr>|<username>|<userindex>_<msg>
+or
+sender_recipient_message
+or
+addresser_addressee_message
+
+//<useraddr> = "0.0.0.0:0000"

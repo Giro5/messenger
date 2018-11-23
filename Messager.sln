@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Messager", "Messager\Messager.pyproj", "{4AF50CA3-DB6B-453F-A9F2-8C8D04419E33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AF50CA3-DB6B-453F-A9F2-8C8D04419E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF50CA3-DB6B-453F-A9F2-8C8D04419E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26132AD7-E998-4DB7-87A2-61D10A74C32D}
+	EndGlobalSection
+EndGlobal
