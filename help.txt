@@ -3,7 +3,7 @@
 
 Client => Server commands:
 @_<username>                                               - new user
-#
+#                                                          - get all users
 $_<letter>                                                 - send msg to server
 %_<username>                                               - remove user
 ^_<username>                                               - get user address and index
